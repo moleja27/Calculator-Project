@@ -8,7 +8,7 @@ body {
 }
 
 .calculator {
-  background-color: darkgray;
+  background-color: pink;
   width: 130px;
   padding: 30px;
   border-radius: 20px;
@@ -16,6 +16,14 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 60px;
+  border: 2px solid purple;
+}
+
+.title {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+  border: none;
 }
 
 input {
@@ -32,14 +40,14 @@ h1 {
 
 .screen {
   width: 100%;
-  height: 60px;
+  height: 70px;
   border-radius: 10px;
-  background-color: lightgreen;
+  background-color: rgb(146, 146, 189);
   margin: 20px 0 0 0;
   padding: 0 10px 0 10px;
   font-size: 50px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(108, 58, 182);
 }
 
 .button {
